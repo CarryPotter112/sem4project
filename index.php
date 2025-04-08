@@ -99,21 +99,18 @@
             background: #555;
             transform: scale(1.1);
         }
-
     </style>
 </head>
 <body>
-
     <h2>Modern PHP Calculator</h2>
-
     <div class="container">
         <form method="post">
             <input type="number" name="num1" placeholder="Enter first number" required>
             <select name="operator">
-                <option value="add">+</option>
-                <option value="subtract">-</option>
-                <option value="multiply">×</option>
-                <option value="divide">÷</option>
+                <option value="add">➕</option>
+                <option value="subtract">➖</option>
+                <option value="multiply">✖️</option>
+                <option value="divide">➗</option>
             </select>
             <input type="number" name="num2" placeholder="Enter second number" required>
             <br>
@@ -177,6 +174,5 @@
             }
         };
     </script>
-
 </body>
 </html>
